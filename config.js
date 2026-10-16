@@ -12,10 +12,10 @@
 var birthdayConfig = {
 
   /* ---------- WHO & WHAT ---------- */
-  celebrantName: "Mahesh Manohar More",          // shown big on the reveal screen
+  celebrantName: "Mahesh More",          // shown big on the reveal screen
   age: "50",                              // the big number (keep it as text)
   occasion: "50th Birthday Celebration",  // small line under the name
-  hostName: "More Family",         // "With love, ..."  ("" to hide)
+  hostName: "Swanandi & Shruti",         // "With love, ..."  ("" to hide)
 
   /* ---------- WHEN ----------
      eventDate  : YYYY-MM-DD   (year-month-day, always this order)
@@ -29,7 +29,7 @@ var birthdayConfig = {
 
   /* ---------- WHERE ---------- */
   venueName: "Sheth Midori",
-  venueAddress: "Sheth Midori Hall, Hanuman Tekdi, Ashokvan, Dahisar(East),Mumbai-400066",
+  venueAddress: "Sheth Midori Clubhouse, Hanuman Tekdi, Ashokvan, Dahisar(East),Mumbai-400066",
   mapsLink: "",     // optional: paste a Google Maps share link.
                     // If empty, a link is made automatically from the address.
 
@@ -43,7 +43,7 @@ var birthdayConfig = {
        { time: "7:00 PM", title: "Guests arrive" },
        { time: "8:00 PM", title: "Cake cutting" },
        { time: "8:30 PM", title: "Dinner" }                                   */
-  schedule: [],
+  schedule: { time: "8:00 PM", title: "Cake cutting" } ,
 
   /* ---------- WORDS ----------
      {name} and {age} are filled in automatically.                           */
