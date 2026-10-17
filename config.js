@@ -13,8 +13,8 @@ var birthdayConfig = {
 
   /* ---------- WHO & WHAT ---------- */
   celebrantName: "Mahesh More",          // shown big on the reveal screen
-  age: "50",                              // the big number (keep it as text)
-  occasion: "50th Birthday Celebration",  // small line under the name
+  age: "50ᵗʰ",                              // the big number (keep it as text)
+  occasion: "Birthday Celebration of",  // small line under the name
   hostName: "Swanandi & Shruti",         // "With love, ..."  ("" to hide)
 
   /* ---------- WHEN ----------
@@ -43,7 +43,7 @@ var birthdayConfig = {
        { time: "7:00 PM", title: "Guests arrive" },
        { time: "8:00 PM", title: "Cake cutting" },
        { time: "8:30 PM", title: "Dinner" }                                   */
-  schedule: { time: "8:00 PM", title: "Cake cutting" } ,
+  schedule: {time: "8:00 PM", title: "Cake cutting"},
 
   /* ---------- WORDS ----------
      {name} and {age} are filled in automatically.                           */
@@ -65,10 +65,7 @@ var birthdayConfig = {
      With caption: { src: "assets/images/dad-1.jpg", caption: "Goa, 2015" },
      Face cut off? add  position: "center top"  (or "center 20%")           */
   photos: [
-    "assets/images/dad-portrait.jpg",
-    "assets/images/dad-memory-1.jpg",
-    "assets/images/dad-memory-2.jpg",
-    "assets/images/dad-memory-3.jpg"
+   "assets/images/dad-portrait.jpeg"
   ],
   finalePhoto: "",   // "" = reuse the first photo in the finale
 
